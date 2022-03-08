@@ -205,7 +205,7 @@ const result = myFunction();
 
 This return value can be of any type (number, string, etc). However, a function can return only one value.
 
-W> Retrieving a function's return value is not mandatory, but in that case the return value is "lost".
+Retrieving a function's return value is not mandatory, but in that case the return value is "lost".
 
 If you try to retrieve the return value of a function that does not actually have one, we get the JavaScript value `undefined`.
 
@@ -219,7 +219,7 @@ const result = myFunction();
 console.log(result); // undefined
 ```
 
-W> A function stops running immediately after the `return` statement is executed. Any further statements are never run.
+A function stops running immediately after the `return` statement is executed. Any further statements are never run.
 
 Let's simplify our example a bit by getting rid of the variable that stores the function's return value.
 
@@ -429,7 +429,7 @@ A function body must be kept simple, or otherwise split into several sub-functio
 
 Function naming is just as important as variable naming. You should choose names that express clearly the function purpose and follow a naming convention. Refer to the appendix for some useful advice.
 
-T> If you have difficulties coming up with a good name for a function, then maybe its purpose is not that clear and you should ask yourself if this function deserves to exist.
+If you have difficulties coming up with a good name for a function, then maybe its purpose is not that clear and you should ask yourself if this function deserves to exist.
 
 ## Coding time!
 
